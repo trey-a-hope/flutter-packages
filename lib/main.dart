@@ -50,9 +50,10 @@ class _MyHomePageState extends State<MyHomePage> {
           },
         ),
         title: 'Simple Page Widget',
-        child: const Center(
-          child: Text(
-            'Center',
+        child: ListView.builder(
+          itemCount: 20,
+          itemBuilder: (_, i) => ListTile(
+            title: Text('$i'),
           ),
         ),
       );
