@@ -58,7 +58,7 @@ class SimplePageWidget extends StatelessWidget {
                                 ),
                           Text(
                             title,
-                            style: Theme.of(context).textTheme.headline6,
+                            style: Theme.of(context).textTheme.headline1,
                           ),
                           rightIconButton == null
                               ? Container(
